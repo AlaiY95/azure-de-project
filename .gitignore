@@ -1,0 +1,86 @@
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.dacpac
+
+# Azure Data Factory
+.github
+
+# Local .NET build folders 
+bin/
+obj/
+
+# Python / Databricks
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environmental variables
+.env
+.env.*
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+credentials.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.delta
+*.avro
+*.json
+!metadata.json
+
+# Package directories
+node_modules/
+jspm_packages/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
